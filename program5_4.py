@@ -1,5 +1,10 @@
 '''Write a Python function to multiply all the numbers in a list.'''
 
+#Print program purpose
+print("This program will ask you to create a list of numbers and then multiply all numbers in that list with eachother.")
+
+
+#Make function that multiplies all numbers in a list with eachother
 def multiplynuminList(MyList):
     #Multiply elements one by one
     result = 1
@@ -19,4 +24,7 @@ while True:
   else:
     continue
 
-print(multiplynuminList(list1))
+print("This is the list: ", list1)
+
+#use function to multiply all numbers in this list
+print("This is all the values in the list multiplied together: ", (multiplynuminList(list1)))
